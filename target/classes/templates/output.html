@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+  <title>Login form</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'First name: ' + ${loginForm.firstName}" /> <br />
+<p th:text="'Last name: ' + ${loginForm.lastName}" /> <br />
+<a href="/login">Back to login form</a>
+</body>
+</html>
